@@ -22,5 +22,7 @@ In this repository I tried to couple the effect of these two model to produce a 
 **LSTM Model (Long Short Term Memory) :**
 
   LSTM networks are a type of recurrent neural network capable of learning order dependence in sequence prediction problems. This is a behavior required in complex problem domains   like machine translation, speech recognition, and more. LSTMs are a complex area of deep learning.
+  
+  ![](lstm.png)
 
 **Hybrid Model :**
