@@ -27,7 +27,7 @@ In this repository I tried to couple the effect of these two model to produce a 
   
   Equation of the ARIMA model is given by :
   
-  <img width="800" src="https://docs.oracle.com/cd/E57185_01/CBREG/images/graphics/arima3.gif">
+  <img width="1000" src="https://docs.oracle.com/cd/E57185_01/CBREG/images/graphics/arima3.gif">
 
 #### LSTM Model (Long Short Term Memory) :
 
