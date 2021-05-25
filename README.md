@@ -18,11 +18,19 @@ In this repository I tried to couple the effect of these two model to produce a 
   - Autoregressive terms (AR) that model past process information.
   - Integrated terms (I) that model the differences needed to make the process stationary.
   - The moving average (MA) that controls the past information of noise around the process.
+  
+  Equation of the ARIMA model is given by :
+  
+  <img width="800" src="https://docs.oracle.com/cd/E57185_01/CBREG/images/graphics/arima3.gif">
 
 **LSTM Model (Long Short Term Memory) :**
 
-  LSTM networks are a type of recurrent neural network capable of learning order dependence in sequence prediction problems. This is a behavior required in complex problem domains   like machine translation, speech recognition, and more. LSTMs are a complex area of deep learning.
+  LSTM networks are a type of recurrent neural network capable of learning order dependence in sequence prediction problems.They were introduced by Hochreiter & Schmidhuber in     1997. LSTMs are designed to avoid the long-term dependency problem. Remembering information for long periods of time is practically their default behavior, not something they   struggle to learn.
   
-  ![](lstm.png)
-
+  <img width="800" src="https://colah.github.io/posts/2015-08-Understanding-LSTMs/img/LSTM3-chain.png">
+  
 **Hybrid Model :**
+
+  First we will train the data on ARIMA model to capture the linearity and then train the output of the previous model on LSTM model which trys to capture the non-linearity       which is present in the data.
+  
+Dataset - This dataset contains APPLE (APPL)
