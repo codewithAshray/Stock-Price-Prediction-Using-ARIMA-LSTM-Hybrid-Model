@@ -1,4 +1,4 @@
-# ARIMA-LSTM-Hybrid-Model
+# Time Series Analysis Using ARIMA-LSTM-Hybrid-Model
 
 # Introduction
 
