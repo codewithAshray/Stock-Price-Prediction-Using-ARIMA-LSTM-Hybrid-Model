@@ -40,7 +40,7 @@ In this repository I tried to couple the effect of these two model to produce a 
   First we will train the data on ARIMA model to capture the linearity and then train the output of the previous model on LSTM model which tries to capture the non-linearity       which is present in the data. Combining the two would help us to capture certain patterns that would be inaccessible to one of the two models.
 
 <hr>
-To get a better understanding of above models I'm linking some reserch paper and blog post which will be helpful.
+To get a better understanding of above models I'm linking some research paper and blog post which will be helpful.
 
 - [Autoregressive Integrated Moving Average](https://www.ncss.com/wp-content/themes/ncss/pdf/Procedures/NCSS/The_Box-Jenkins_Method.pdf) or go to this post [https://medium.com/@kangeugine/time-series-arima-model-11140bc08c6](https://medium.com/@kangeugine/time-series-arima-model-11140bc08c6)
 - [Long Short Term Memory](https://www.bioinf.jku.at/publications/older/2604.pdf) or go to this post [https://colah.github.io/posts/2015-08-Understanding-LSTMs/](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
