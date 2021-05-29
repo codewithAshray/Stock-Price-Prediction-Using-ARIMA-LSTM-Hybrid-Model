@@ -1,7 +1,7 @@
 # Stock Price Prediction Using ARIMA-LSTM Hybrid Model
 
 **Prerequisite -**
-- Basic Statistics like correlation and averages.
+- Statistics and Hypothesis Testing.
 - Recurrent Neural Network and problems with them.
 
 **Dataset -** This dataset contains APPLE(AAPL) stock price from year 2016. 
